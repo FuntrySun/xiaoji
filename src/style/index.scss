@@ -1,0 +1,25 @@
+// @import './iconfont.css';
+
+.test {
+  // 可以通过 @apply 多个样式封装整体样式
+  @apply mt-4 ml-4;
+
+  padding-top: 4px;
+  color: red;
+}
+@font-face {
+  font-family: 'TaoBaoMaiCaiTi';
+  src:
+    url('../static/fonts/TaoBaoMaiCaiTi-Regular.woff2') format('woff2'),
+    url('../static/fonts/TaoBaoMaiCaiTi-Regular.woff') format('woff');
+}
+:root,
+page {
+  font-family: 'Microsoft YaHei' sans-serif;
+  background-color: #f5f5f5;
+  // 修改按主题色
+  // --wot-color-theme: #37c2bc;
+
+  // 修改按钮背景色
+  // --wot-button-primary-bg-color: green;
+}
